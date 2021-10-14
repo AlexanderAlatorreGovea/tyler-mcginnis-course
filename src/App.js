@@ -4,10 +4,12 @@ import Todo from "./components/Todo";
 import ShowHide from "./components/ShowHide";
 
 function App() {
+
   return (
     <div className="App">
       {/* <Theme/> */}
       {/* <Todo/> */}
+    
       <ShowHide />
     </div>
   );

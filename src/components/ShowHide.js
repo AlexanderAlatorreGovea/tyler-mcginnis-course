@@ -26,6 +26,7 @@ const posts = [
 
 const ShowHide = () => {
   const [openIndex, setOpenIndex] = useState(0);
+
   return (
     <ul>
       {posts.map(({ id, img, text }, index) => {
